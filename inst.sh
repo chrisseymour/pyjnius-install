@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install git vim
 
 ###python requirements
 sudo apt-get install python-setuptools python-dev
