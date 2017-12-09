@@ -1,9 +1,5 @@
 # pyjnius-install
 bash script to install pyjnius and requirements
-### pyjnius
-# https://github.com/kivy/pyjnius
-### docs
-# https://pyjnius.readthedocs.io/en/latest/index.html#
 
 tested on:
 Google Cloud Platform
