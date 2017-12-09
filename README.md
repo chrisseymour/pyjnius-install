@@ -8,7 +8,10 @@ December 9, 2017
 
 Installation Method:
 
-  $ git clone github.com/chrisseymour/pyjnius-install
+  $ git clone https://github.com/chrisseymour/pyjnius-install.git
+  
   $ chmod +x inst.sh
+  
   $ yes y | ./inst.sh
+  
   $ source paths.sh
