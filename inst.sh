@@ -13,7 +13,7 @@ sudo apt-get install default-jre
 sudo apt-get install default-jdk
 
 ###get and install pyjnius
-cd ~
+cd ..
 git clone https://github.com/kivy/pyjnius.git
 cd pyjnius/
 sudo python setup.py install
