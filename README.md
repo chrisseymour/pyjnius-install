@@ -10,6 +10,8 @@ Installation Method:
 
   $ git clone https://github.com/chrisseymour/pyjnius-install.git
   
+  $ cd pyjnius-install/
+  
   $ chmod +x inst.sh
   
   $ yes y | ./inst.sh
