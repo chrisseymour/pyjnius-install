@@ -29,6 +29,6 @@ sudo apt-get install libsdl2-dev lib32z1 #zlib1g-dev
 
 ### buildozer packager and kivy
 sudo pip install buildozer
-sudo pip -no-cache-dir install kivy
+sudo pip --no-cache-dir install kivy
 buildozer init
 buildozer -v android debug
