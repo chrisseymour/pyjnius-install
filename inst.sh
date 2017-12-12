@@ -19,19 +19,19 @@ git clone https://github.com/kivy/pyjnius.git
 cd pyjnius/
 sudo python setup.py install
 sudo make
-cd ..
+#cd ..
 
 ### add 32-bit files for android
-sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get install libpangox-1.0-0:i386 libpangoxft-1.0-0:i386
-sudo apt-get install libsdl2-dev lib32z1 #zlib1g-dev
+#sudo dpkg --add-architecture i386
+#sudo apt-get update
+#sudo apt-get install libpangox-1.0-0:i386 libpangoxft-1.0-0:i386
+#sudo apt-get install libsdl2-dev lib32z1 #zlib1g-dev
 
 ### buildozer packager and kivy
-sudo pip install buildozer
-sudo pip --no-cache-dir install kivy
-python
-import kivy
-quit()
-buildozer init
-buildozer -v android debug
+#sudo pip install buildozer
+#sudo pip --no-cache-dir install kivy
+#python
+#import kivy
+#quit()
+#buildozer init
+#buildozer -v android debug
